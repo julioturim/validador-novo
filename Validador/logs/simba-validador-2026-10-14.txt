@@ -1,0 +1,124 @@
+14:21:22.458 [main] DEBUG br.mp.mpf.asspa.client.BaseMain - Tempo de inicialização da SplashScreen: 592 ms
+14:21:22.463 [main] INFO  br.mp.mpf.asspa.client.BaseMain - Inicializando aplicação.
+14:21:22.464 [main] INFO  br.mp.mpf.asspa.client.BaseMain - Versão do Java: 25
+14:21:22.465 [main] INFO  br.mp.mpf.asspa.client.BaseMain - Sistema Operacional: Windows 10 (amd64) - 10.0
+14:21:22.466 [main] INFO  br.mp.mpf.asspa.client.BaseMain - Pasta atual: C:\Users\Julio\Documents\Programas SIMBA\Validador
+14:21:22.467 [main] INFO  br.mp.mpf.asspa.client.BaseMain - Runtime maxMemory: 2147483648 bytes (2.0GB)
+14:21:22.691 [main] INFO  br.mp.mpf.asspa.client.BaseMain - A versão atual do Java suporta TLSv1.2
+14:21:22.693 [main] INFO  br.mp.mpf.asspa.client.BaseMain - A versão atual do Java suporta TLSv1.3
+14:21:22.695 [main] INFO  br.mp.mpf.asspa.client.BaseMain - Inicialização com arquivo validador-spring.xml.
+14:21:24.521 [main] DEBUG br.mp.mpf.asspa.client.BaseMain - Tempo de inicialização do Spring: 1.823 s
+14:21:24.538 [start] INFO  br.mp.mpf.asspa.client.BaseMain - Versão do Validador: 6.2.6
+14:21:24.544 [start] INFO  br.mp.mpf.asspa.client.BaseMain - Utilizando pasta dadosValidador: C:\Users\Julio\Documents\Programas SIMBA\dadosValidador
+14:21:24.843 [start] INFO  br.mp.mpf.pgr.client.cmd.CriarRepositorioCertificadosCmd - Criando repositório de certificados.
+14:21:25.358 [start] INFO  br.mp.mpf.pgr.client.cmd.CriarRepositorioCertificadosCmd - Repositório de certificados criado com sucesso.
+14:21:26.730 [start] INFO  br.mp.mpf.pgr.client.cmd.BaixarInstalarCertificadosOrgaosCmd - Verificando versão do arquivo de certificados dos órgãos.
+14:21:26.735 [start] INFO  br.mp.mpf.pgr.client.cmd.BaixarInstalarCertificadosOrgaosCmd - Versão do arquivo de certificados não encontrada.
+14:21:26.736 [start] DEBUG br.mp.mpf.pgr.client.cmd.BaixarInstalarCertificadosOrgaosCmd - Fazendo download do arquivo de certificados...
+14:21:26.739 [start] DEBUG br.mp.mpf.pgr.client.http.DownloadFile - Url: https://simba.mpf.mp.br/vamp/download?codigo=CERTIFICADOS
+14:21:26.739 [start] DEBUG br.mp.mpf.pgr.client.http.DownloadFile - Destino: C:\Users\Julio\Documents\Programas SIMBA\dadosValidador\conf\downloads
+14:21:27.179 [start] INFO  br.mp.mpf.pgr.client.http.DownloadFile - Codigo de resposta da url: 200
+14:21:27.180 [start] INFO  br.mp.mpf.pgr.client.http.DownloadFile - Content-Disposition: certificados.zip
+14:21:27.292 [start] INFO  br.mp.mpf.pgr.client.cmd.BaixarInstalarCertificadosOrgaosCmd - Instalando arquivo de certificados dos órgãos.
+14:21:31.291 [start] INFO  br.mp.mpf.pgr.client.cmd.BaixarInstalarCertificadosOrgaosCmd - Arquivo de certificados versão 265 instalado.
+14:21:31.419 [start] INFO  br.mp.mpf.pgr.client.http.GetString - GET: https://simba.mpf.mp.br/vamp/versao?versao=6.2.6&codigo=VBMPF
+14:21:31.800 [start] DEBUG br.mp.mpf.pgr.client.http.GetString - GetString: 381 ms
+14:21:32.331 [start] INFO  br.mp.mpf.pgr.client.http.GetString - GET: https://simba.mpf.mp.br/vamp/mensagens?codigo=VBMPF
+14:21:32.660 [start] DEBUG br.mp.mpf.pgr.client.http.GetString - GetString: 328 ms
+14:21:32.677 [start] INFO  br.mp.mpf.pgr.client.http.GetString - GET: https://simba.mpf.mp.br/vamp/versao?versao=0&codigo=IMAGENS
+14:21:32.980 [start] DEBUG br.mp.mpf.pgr.client.http.GetString - GetString: 303 ms
+14:21:32.981 [start] INFO  br.mp.mpf.pgr.client.Controlador - Arquivo de imagens desatualizado versão: 0
+14:21:32.984 [start] INFO  br.mp.mpf.pgr.client.Controlador - Apagando a pasta atual...
+14:21:32.993 [start] INFO  br.mp.mpf.pgr.client.Controlador - Criando pasta para salvar arquivos: C:\Users\Julio\Documents\Programas SIMBA\dadosValidador\conf\imagens
+14:21:32.994 [start] DEBUG br.mp.mpf.pgr.client.http.DownloadFile - Url: https://simba.mpf.mp.br/vamp/download?codigo=IMAGENS
+14:21:32.995 [start] DEBUG br.mp.mpf.pgr.client.http.DownloadFile - Destino: C:\Users\Julio\Documents\Programas SIMBA\dadosValidador\conf\imagens
+14:21:33.429 [start] INFO  br.mp.mpf.pgr.client.http.DownloadFile - Codigo de resposta da url: 200
+14:21:33.430 [start] INFO  br.mp.mpf.pgr.client.http.DownloadFile - Content-Disposition: imagens.zip
+14:21:34.115 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 020-MPPRTESTE.gif
+14:21:34.118 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 021-MPDFT.gif
+14:21:34.121 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 021-MPDFTTESTE.gif
+14:21:34.123 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 022-MPTO.gif
+14:21:34.125 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 022-MPTOTESTE.gif
+14:21:34.127 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 024-PCSC.png
+14:21:34.137 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 024-PCSCTESTE.png
+14:21:34.146 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 025-MPRN.GIF
+14:21:34.148 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 025-MPRNTESTE.GIF
+14:21:34.151 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 026-MPGO.gif
+14:21:34.154 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 026-MPGOTESTE.gif
+14:21:34.156 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 027-PCERJ.gif
+14:21:34.159 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 027-PCERJTESTE.gif
+14:21:34.161 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 028-MPCE.gif
+14:21:34.164 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 028-MPCETESTE.gif
+14:21:34.167 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 029-mppe.png
+14:21:34.177 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 029-mppeteste.png
+14:21:34.186 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 030-MPMA.jpg
+14:21:34.188 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 030-MPMATESTE.jpg
+14:21:34.189 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 031-mpmt.gif
+14:21:34.191 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 031-mpmtteste.gif
+14:21:34.194 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 033-MPAC.gif
+14:21:34.196 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 033-MPACTESTE.gif
+14:21:34.198 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 034-SSPBA.jpg
+14:21:34.200 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 034-SSPBATESTE.jpg
+14:21:34.203 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 035-MPAP.png
+14:21:34.205 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 035-MPAPTESTE.png
+14:21:34.207 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 036-MPRO.png
+14:21:34.209 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 036-MPROTESTE.png
+14:21:34.211 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 042-MPPI.jpg
+14:21:34.213 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 042-MPPITESTE.jpg
+14:21:34.215 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 043-MPALTESTE.png
+14:21:34.217 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 045-PCGO.png
+14:21:34.219 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 045-PCGOTESTE.png
+14:21:34.222 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 045-SSPGO.jpg
+14:21:34.224 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 045-SSPGOTESTE.jpg
+14:21:34.225 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 049-PCMS.png
+14:21:34.229 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 064-pcpb.png
+14:21:34.231 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 064-pcpbteste.png
+14:21:34.233 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 083-PCES.png
+14:21:34.243 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 083-PCESTESTE.png
+14:21:34.251 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 101-TCEGO.jpg
+14:21:34.254 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 111-SMFSP.jpg
+14:21:34.256 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 111-SMFSPTESTE.jpg
+14:21:34.258 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 113-SEFAZCG.png
+14:21:34.261 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 113-SEFAZCGTESTE.png
+14:21:34.272 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo padrao.gif
+14:21:34.274 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo versao.txt
+14:21:34.275 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 115-SEMFPMTTES.png
+14:21:34.284 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 115-SEMFPMT.png
+14:21:34.292 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 117-SEFAZBA.jpg
+14:21:34.296 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 117-SEFAZBATEST.jpg
+14:21:34.299 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 001-MPF.gif
+14:21:34.302 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 001-MPFTESTE.gif
+14:21:34.304 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 003-MPSP.gif
+14:21:34.306 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 003-MPSPHOMOL.gif
+14:21:34.308 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 003-MPSPTESTE.gif
+14:21:34.310 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 005-MPSC.gif
+14:21:34.313 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 005-MPSC.jpg
+14:21:34.317 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 005-MPSCTESTE.gif
+14:21:34.320 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 005-MPSCTESTE.jpg
+14:21:34.323 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 006-MPMG.gif
+14:21:34.326 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 006-MPMGTESTE.gif
+14:21:34.328 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 008-MPMS.gif
+14:21:34.330 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 008-MPMSTESTE.gif
+14:21:34.332 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 009-MPRS.gif
+14:21:34.334 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 009-MPRSTESTE.gif
+14:21:34.336 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 010-MPES.gif
+14:21:34.338 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 010-MPESTESTE.gif
+14:21:34.340 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 012-MPRJ.gif
+14:21:34.342 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 012-MPRJTESTE.gif
+14:21:34.344 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 013-PCMG.gif
+14:21:34.346 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 013-PCMGTESTE.gif
+14:21:34.348 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 014-TRT3.gif
+14:21:34.350 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 014-TRT3TESTE.gif
+14:21:34.352 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 015-MPPB.gif
+14:21:34.354 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 015-MPPBTESTE.gif
+14:21:34.356 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 016-MPBA.gif
+14:21:34.358 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 016-MPBATESTE.gif
+14:21:34.360 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 018-PCSP.gif
+14:21:34.362 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 018-PCSPTESTE.gif
+14:21:34.365 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Encontrado arquivo 020-MPPR.gif
+14:21:34.368 [start] INFO  br.mp.mpf.asspa.client.Arquivo - Arquivos descomprimidos.
+14:21:34.440 [start] INFO  br.mp.mpf.asspa.client.BaseMain - Aplicação iniciada.
+14:21:34.447 [AWT-EventQueue-0] INFO  br.mp.mpf.pgr.client.http.GetString - GET: https://simba.mpf.mp.br/vamp/orgaos?codprog=VBMPF
+14:21:34.892 [AWT-EventQueue-0] DEBUG br.mp.mpf.pgr.client.http.GetString - GetString: 444 ms
+14:21:35.074 [start] DEBUG br.mp.mpf.asspa.client.BaseMain - Tempo de inicialização: 13.213 s
+14:26:53.490 [Thread-0] INFO  br.mp.mpf.asspa.client.BaseMain - A aplicação foi encerrada.
